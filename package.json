@@ -1,0 +1,55 @@
+{
+  "name": "parse-unit",
+  "version": "1.0.0",
+  "description": "parses number and unit, '20px' into [20, 'px']",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.13.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/parse-unit.git"
+  },
+  "keywords": [
+    "parse",
+    "number",
+    "string",
+    "str",
+    "split",
+    "unit",
+    "in",
+    "m",
+    "px",
+    "%",
+    "pt",
+    "pc",
+    "em",
+    "deg",
+    "rad",
+    "css",
+    "value"
+  ],
+  "homepage": "https://github.com/mattdesl/parse-unit",
+  "bugs": {
+    "url": "https://github.com/mattdesl/parse-unit/issues"
+  }
+}
