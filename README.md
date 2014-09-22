@@ -1,5 +1,3 @@
-[![browser support](https://ci.testling.com/mattdesl/parse-unit.png)](https://ci.testling.com/mattdesl/parse-unit)
-
 # parse-unit
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
