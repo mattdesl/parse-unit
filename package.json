@@ -1,6 +1,6 @@
 {
   "name": "parse-unit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parses number and unit, '20px' into [20, 'px']",
   "main": "index.js",
   "license": "MIT",
