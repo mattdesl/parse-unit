@@ -4,7 +4,7 @@ require('tape').test('should parse unit strings', function(t) {
 	//Does not yet support hex or E notation
 	
 	t.deepEqual( unit('20px'), [20, 'px'] )
-	t.deepEqual( unit('20 px'), [20, 'px'] )
+	t.deepEqual( unit('20 gold'), [20, 'gold'] )
 	t.deepEqual( unit('2.5 px'), [2.5, 'px'] )
 	t.deepEqual( unit('2.5 %'), [2.5, '%'] )
 	t.deepEqual( unit('-2.5'), [-2.5, ''] )
