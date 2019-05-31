@@ -5,7 +5,7 @@
 Parses a number and unit string, eg `"20px"` into `[20, "px"]`. 
 
 ```js
-var unit = require('parse-unit')
+import unit from 'parse-unit'
 
 //prints [50, "gold"]
 console.log( unit("50 gold") ) 
