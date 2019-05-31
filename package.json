@@ -2,15 +2,18 @@
   "name": "parse-unit",
   "version": "1.0.1",
   "description": "parses number and unit, '20px' into [20, 'px']",
-  "main": "index.js",
+  "main": "index.cjs.js",
+  "module": "index.js",
   "license": "MIT",
   "author": "Matt DesLauriers <dave.des@gmail.com>",
   "dependencies": {},
   "devDependencies": {
-    "tape": "~2.13.2"
+    "esm": "^3.2.25",
+    "tape": "^4.10.2"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "tape -r esm ./test.js",
+    "prepublishOnly": "node -r esm ./build.js"
   },
   "repository": {
     "type": "git",

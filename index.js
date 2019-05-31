@@ -1,4 +1,4 @@
-module.exports = function parseUnit(str, out) {
+export default function parseUnit(str, out) {
     if (!out)
         out = [ 0, '' ]
 

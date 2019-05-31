@@ -1,6 +1,7 @@
-var unit = require('./')
+import test from 'tape'
+import unit from './'
 
-require('tape').test('should parse unit strings', function(t) {
+test('should parse unit strings', function(t) {
 	//Does not yet support hex or E notation
 	
 	t.deepEqual( unit('20px'), [20, 'px'] )
